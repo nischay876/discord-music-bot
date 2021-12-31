@@ -27,7 +27,7 @@ module.exports = {
 
      //Lavalink
      Lavalink: {
-      host: process.env.Lavalink_host || "",
+      host: "Lavalink Server",
       host: process.env.Lavalink_host || "",
       port: 443,
       pass: process.env.Lavalink_pass || "",
