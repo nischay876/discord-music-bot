@@ -27,7 +27,7 @@ module.exports = {
 
      //Lavalink
      Lavalink: {
-      id: "www.freelavalink.ga",
+      id: process.env.host || "",
       host: process.env.host || "",
       port: 443,
       pass: process.env.pass || "",
