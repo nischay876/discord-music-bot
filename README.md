@@ -1,6 +1,6 @@
 # [INVITE MY BOT ME CUTE](https://bit.ly/MeCuTe)   •   [MY WEBSITE](https://www.oggy.ga)
 
-**An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support!**
+**An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support !**
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://u.oggy.ga/discord-music-bot-railway-deploy) 
 
