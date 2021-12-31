@@ -27,10 +27,10 @@ module.exports = {
 
      //Lavalink
      Lavalink: {
-      id: process.env.host || "",
-      host: process.env.host || "",
+      id: process.env.Lavalink_host || "",
+      host: process.env.Lavalink_host || "",
       port: 443,
-      pass: process.env.pass || "",
+      pass: process.env.Lavalink_pass || "",
       secure: true,
       retryDelay: 5000, // Delay for reconnect in ms.
       retryAmount: 1000000000000, // Retry amout if the lavalink is dead and/or restarting.
