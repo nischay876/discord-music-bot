@@ -32,7 +32,7 @@ module.exports = {
       port: 443,
       pass: process.env.Lavalink_pass || "",
       secure: true,
-      retryDelay: 5000, // Delay for reconnect in ms.
+      retryDelay: 5000, // Delay for reconnect in ms
       retryAmount: 1000000000000, // Retry amout if the lavalink is dead and/or restarting.
     },
 
