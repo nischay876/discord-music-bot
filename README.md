@@ -2,7 +2,7 @@
 
 **An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support!**
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://bit.ly/discord-music-bot) 
+[![Deploy on Railway](https://railway.app/button.svg)](https://u.oggy.ga/discord-music-bot-railway-deploy) 
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/nischay876/discord-music-bot)
 
