@@ -11,8 +11,10 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nischay876/discord-music-bot)
 
 [![Run on Repl.it](https://repl.it/badge/github/nischay876/discord-music-bot)](https://repl.it/github/nischay876/discord-music-bot)
+
 ```
- Commands of Me Cute
+Commands of Me Cute Bot
+
 -about - See description about this bot
 -bassboost <none|low|medium|high> - Enables bass boosting audio effect
 -bump - Moves a track to the front of the queue.
