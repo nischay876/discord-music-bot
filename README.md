@@ -1,4 +1,4 @@
-# [INVITE MY BOT ME CUTE](https://bit.ly/MeCuTe)   •   [MY WEBSITE](https://www.oggy.ga)
+# [INVITE BOT](https://bit.ly/MeCuTe)   •   [WEBSITE](https://mecute.ga)   •   [STATUS](https://mecute.instatus.com)
 
 **An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support !**
 
@@ -88,5 +88,5 @@
 -unmute [@mention/ID] - Unmute server members
 -userinfo [@mention/ID] - Pulls the userinfo of yourself or a user!
 -volume <volume> - Check or change the current volume
--youtube - Starts a YouTube Together session```
+-youtube - Starts a YouTube Together session
 
