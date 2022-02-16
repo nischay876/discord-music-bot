@@ -10,6 +10,8 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nischay876/discord-music-bot)
 
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/nischay876/discord-music-bot/archive/refs/heads/main.zip)
+
 [![Run on Repl.it](https://repl.it/badge/github/nischay876/discord-music-bot)](https://repl.it/github/nischay876/discord-music-bot)
 
 ```
