@@ -14,9 +14,8 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/nischay876/discord-music-bot)](https://repl.it/github/nischay876/discord-music-bot)
 
+# Commands of Me Cute Bot
 ```
-Commands of Me Cute Bot
-
 -about - See description about this bot
 -bassboost <none|low|medium|high> - Enables bass boosting audio effect
 -bump - Moves a track to the front of the queue.
@@ -93,4 +92,3 @@ Commands of Me Cute Bot
 -userinfo [@mention/ID] - Pulls the userinfo of yourself or a user!
 -volume <volume> - Check or change the current volume
 -youtube - Starts a YouTube Together session
-
