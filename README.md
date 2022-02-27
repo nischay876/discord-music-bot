@@ -18,155 +18,83 @@
 
 # Commands of Me Cute Bot
 ```
--about - See description about this bot
+about - See description about this bot
 
--bassboost <none|low|medium|high> - Enables bass boosting audio effect
+bassboost [none/low/medium/high] - Enables bass boosting
 
--bump - Moves a track to the front of the queue.
+botservers - Check what Servers the bot is in
 
--cat - sends a cute or funny picture of a cat
+bump - Moves a track to the front of the queue
 
--clear - Clears the server queue
+cat - sends a cute or funny picture of a cat
 
--config - Edit the bot settings
+clear - Clears the server queue
 
--csgo <steamID> - Gives stats of csgo player
+config - Edit the bot settings
 
--disconnect - Stop the music and leave the voice channel
+csgo [steamID] - Gives stats of csgo player
 
--dog - Sends a cute or funny picture of a dog
+disconnect - leaves voice channel
 
--grab - Saves the current song to your Direct Messages
+dog - Sends a picture of a dog
 
--help [command] - Information about the bot
+grab - Saves the current song to your DM
 
--invite - To invite me to your server
+help [command] - Information about the bot
 
--loop - Loop the current song
+invite - To invite me to your server
 
--loopqueue - Loop the whole queue
+join - Join Voice Channel
 
--lyrics [Song Name] - Shows the lyrics of the song searched
+loop - Loop the current song
 
--move - Moves a track to a specified position.
+loopqueue - Loop the whole queue
 
--mute [@mention/ID] - Mute server members
+lyrics [Song Name] - Shows the lyrics of the song searched
 
--nowplaying - See what song is currently playing
+move - Moves a track to a specified position
 
--pause - Pauses the music
+mute [@mention/ID] - Mute server members
 
--play [song] - Play your favorite songs
+nowplaying - See what song is currently playing
 
--purge [number] - Delete messiges in bulk
+pause - Pauses the music
 
--queue - Shows all currently enqueued songs
+play [song] - Play your favorite songs
 
--remove [number] - Remove a song from the queue
+purge [number] - Delete messiges in bulk
 
--restart - Restart The Bot
+queue - Shows all currently enqueued songs
 
--resume - Resumes the music
+remove [number] - Remove a song from the queue
 
--search [song] - Shows a result of songs based on the search query
+restart - Restart The Bot
 
--seek <time s/m/h> - Seek to a position in the song
+resume - Resumes the music
 
--serverinvite - Makes a server invite
+search [song] - Shows a result of songs based on the search query
 
--shell - Run a command on shell
+seek [time s/m/h] - Seek to a position in the song
 
--shuffle - Shuffles the queue
+serverinvite - Makes a server invite
 
--skip - Skip the current song
+shell - Run a command on shell
 
--skipto <number> - Skip to a song in the queue
+shuffle - Shuffles the queue
 
--stats - Get information about the bot
+skip - Skip the current song
 
--suggest - Suggestion Or Report Bug
+skipto [number] - Skip to a song in the queue
 
--unmute [@mention/ID] - Unmute server members
+stats - Get information about the bot
 
--userinfo [@mention/ID] - Pulls the userinfo of yourself or a user!
+suggest - Suggestion
 
--volume <volume> - Check or change the current volume
+unmute [@mention/ID] - Unmute server members
 
--youtube - Starts a YouTube Together session
+userinfo [@mention/ID] - Pulls the userinfo of yourself or a user
 
--about - See description about this bot
+volume [volume] - Check or change the current volume
 
--bassboost <none|low|medium|high> - Enables bass boosting audio effect
-
--bump - Moves a track to the front of the queue.
-
--cat - sends a cute or funny picture of a cat
-
--clear - Clears the server queue
-
--config - Edit the bot settings
-
--csgo csgo <steamID> - Gives stats of csgo player
-
--disconnect - Stop the music and leave the voice channel
-
--dog - Sends a cute or funny picture of a dog
-
--grab - Saves the current song to your Direct Messages
-
--help [command] - Information about the bot
-
--invite - To invite me to your server
-
--loop - Loop the current song
-
--loopqueue - Loop the whole queue
-
--lyrics [Song Name] - Shows the lyrics of the song searched
-
--move - Moves a track to a specified position.
-
--mute [@mention/ID] - Mute server members
-
--nowplaying - See what song is currently playing
-
--pause - Pauses the music
-
--play [song] - Play your favorite songs
-
--purge [number] - Delete messiges in bulk
-
--queue - Shows all currently enqueued songs
-
--remove [number] - Remove a song from the queue
-
--restart - Restart The Bot
-
--resume - Resumes the music
-
--search [song] - Shows a result of songs based on the search query
-
--seek <time s/m/h> - Seek to a position in the song
-
--serverinvite - Makes a server invite
-
--shell - Run a command on shell
-
--shuffle - Shuffles the queue
-
--skip - Skip the current song
-
--skipto <number> - Skip to a song in the queue
-
--stats - Get information about the bot
-
--suggest - Suggestion Or Report Bug
-
--unmute [@mention/ID] - Unmute server members
-
--userinfo [@mention/ID] - Pulls the userinfo of yourself or a user!
-
--volume <volume> - Check or change the current volume
-
--youtube - Starts a YouTube Together session
+youtube - Starts a YouTube Together session
 
