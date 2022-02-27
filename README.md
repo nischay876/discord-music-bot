@@ -17,85 +17,85 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/nischay876/discord-music-bot)](https://repl.it/github/nischay876/discord-music-bot)
 
-# Commands of Me Cute Bot
-```
-about - See description about this bot
+# [Commands of Me Cute Bot](https://mecute.ga/#commands)
 
-bassboost [none/low/medium/high] - Enables bass boosting
+* about - See description about this bot
 
-botservers - Check what Servers the bot is in
+* bassboost [none/low/medium/high] - Enables bass boosting
 
-bump - Moves a track to the front of the queue
+* botservers - Check what Servers the bot is in
 
-cat - sends a cute or funny picture of a cat
+* bump - Moves a track to the front of the queue
 
-clear - Clears the server queue
+* cat - sends a cute or funny picture of a cat
 
-config - Edit the bot settings
+* clear - Clears the server queue
 
-csgo [steamID] - Gives stats of csgo player
+* config - Edit the bot settings
 
-disconnect - leaves voice channel
+* csgo [steamID] - Gives stats of csgo player
 
-dog - Sends a picture of a dog
+* disconnect - leaves voice channel
 
-grab - Saves the current song to your DM
+* dog - Sends a picture of a dog
 
-help [command] - Information about the bot
+* grab - Saves the current song to your DM
 
-invite - To invite me to your server
+* help [command] - Information about the bot
 
-join - Join Voice Channel
+* invite - To invite me to your server
 
-loop - Loop the current song
+* join - Join Voice Channel
 
-loopqueue - Loop the whole queue
+* loop - Loop the current song
 
-lyrics [Song Name] - Shows the lyrics of the song searched
+* loopqueue - Loop the whole queue
 
-move - Moves a track to a specified position
+* lyrics [Song Name] - Shows the lyrics of the song searched
 
-mute [@mention/ID] - Mute server members
+* move - Moves a track to a specified position
 
-nowplaying - See what song is currently playing
+* mute [@mention/ID] - Mute server members
 
-pause - Pauses the music
+* nowplaying - See what song is currently playing
 
-play [song] - Play your favorite songs
+* pause - Pauses the music
 
-purge [number] - Delete messiges in bulk
+* play [song] - Play your favorite songs
 
-queue - Shows all currently enqueued songs
+* purge [number] - Delete messiges in bulk
 
-remove [number] - Remove a song from the queue
+* queue - Shows all currently enqueued songs
 
-restart - Restart The Bot
+* remove [number] - Remove a song from the queue
 
-resume - Resumes the music
+* restart - Restart The Bot
 
-search [song] - Shows a result of songs based on the search query
+* resume - Resumes the music
 
-seek [time s/m/h] - Seek to a position in the song
+* search [song] - Shows a result of songs based on the search query
 
-serverinvite - Makes a server invite
+* seek [time s/m/h] - Seek to a position in the song
 
-shell - Run a command on shell
+* serverinvite - Makes a server invite
 
-shuffle - Shuffles the queue
+* shell - Run a command on shell
 
-skip - Skip the current song
+* shuffle - Shuffles the queue
 
-skipto [number] - Skip to a song in the queue
+* skip - Skip the current song
 
-stats - Get information about the bot
+* skipto [number] - Skip to a song in the queue
 
-suggest - Suggestion
+* stats - Get information about the bot
 
-unmute [@mention/ID] - Unmute server members
+* suggest - Suggestion
 
-userinfo [@mention/ID] - Pulls the userinfo of yourself or a user
+* unmute [@mention/ID] - Unmute server members
 
-volume [volume] - Check or change the current volume
+* userinfo [@mention/ID] - Pulls the userinfo of yourself or a user
 
-youtube - Starts a YouTube Together session
+* volume [volume] - Check or change the current volume
+
+* youtube - Starts a YouTube Together session
 
