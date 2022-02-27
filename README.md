@@ -2,6 +2,8 @@
 
 **An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support !**
 
+# [DEPLOY]
+
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/nischay876/discord-music-bot)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://u.oggy.ga/discord-music-bot-railway-deploy) 
