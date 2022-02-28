@@ -111,4 +111,4 @@
 * youtube - Starts a YouTube Together session
 
 
-<p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg">  <img src="http://ForTheBadge.com/images/badges/built-with-swag.svg"></a></p><p align="center">
+<p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg">  <img src="http://ForTheBadge.com/images/badges/built-with-swag.svg">
