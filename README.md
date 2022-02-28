@@ -9,8 +9,6 @@
 [![DiscordBanner](https://invidget.switchblade.xyz/aYBB9eXe2g)](https://discord.gg/aYBB9eXe2g)
 <p align="left"><img src="https://discord-readme-badge.vercel.app/api?id=813561253175361558"></a></p><p align="center">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 # •   Run The Project
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/nischay876/discord-music-bot)
@@ -26,8 +24,6 @@
 [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/nischay876/discord-music-bot/archive/refs/heads/main.zip)
 
 [![Run on Repl.it](https://repl.it/badge/github/nischay876/discord-music-bot)](https://repl.it/github/nischay876/discord-music-bot)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 #    •   [Commands of Me Cute Bot](https://mecute.ga/#commands)
 
