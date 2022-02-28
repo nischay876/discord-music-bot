@@ -7,6 +7,11 @@
 
 [![DiscordBanner](https://discord-readme-badge.vercel.app/api?id=813561253175361558)](https://discord.gg/aYBB9eXe2g)
 
+# •   Languages
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 # •   Run The Project
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/nischay876/discord-music-bot)
@@ -105,4 +110,5 @@
 
 * youtube - Starts a YouTube Together session
 
-# END
+
+<p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg">  <img src="http://ForTheBadge.com/images/badges/built-with-swag.svg"></a></p><p align="center">
