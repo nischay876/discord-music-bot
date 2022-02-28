@@ -5,7 +5,7 @@
 # •   Support
 [![DiscordBanner](https://invidget.switchblade.xyz/aYBB9eXe2g)](https://discord.gg/aYBB9eXe2g)
 
-<p align="left"><img src="https://discord-readme-badge.vercel.app/api?id=813561253175361558"></a></p><p align="center">
+[![DiscordBanner](https://discord-readme-badge.vercel.app/api?id=813561253175361558)](https://discord.gg/aYBB9eXe2g)
 
 # •   Run The Project
 
@@ -105,3 +105,4 @@
 
 * youtube - Starts a YouTube Together session
 
+# END
