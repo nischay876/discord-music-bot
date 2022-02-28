@@ -1,4 +1,4 @@
-# [INVITE BOT](https://bit.ly/MeCuTe)   •   [WEBSITE](https://mecute.ga)   •   [STATUS](https://mecute.instatus.com)
+# [INVITE BOT](https://bit.ly/MeCuTe)   •   [WEBSITE](https://mecute.ga)   •   [STATUS](https://mecute.instatus.com)   •   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnischay876%2Fdiscord-music-bot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repo+views&edge_flat=true)](https://hits.seeyoufarm.com)
 
 **An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support !**
 
