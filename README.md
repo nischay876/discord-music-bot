@@ -1,6 +1,6 @@
 #    •   [INVITE BOT](https://discord.com/oauth2/authorize?client_id=889880800655474768&permissions=6777204297&scope=bot%20identify&redirect_url=https://dash.mecute.ga/api/callback&response_type=code)   •   [WEBSITE](https://mecute.ga)   •   [STATUS](https://mecute.instatus.com)   •   [hi@mecute.ga](https://u.oggy.ga/mecuteemail)   •   ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnischay876%2Fdiscord-music-bot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repo+views&edge_flat=true)
 
-## **An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support !**
+## **An Advanced Discord Music Bot That supports Spotify, Soundcloud, YouTube, Twitch And Livstreams with Shuffling, Volume Control and Web Dashboard !**
 
 #
 [![DiscordBanner](https://invidget.switchblade.xyz/aYBB9eXe2g)](https://discord.gg/aYBB9eXe2g)
