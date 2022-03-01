@@ -13,9 +13,10 @@ module.exports = {
       .setThumbnail(client.botconfig.IconURL)
       .setColor(client.botconfig.EmbedColor)
       .addField('**CREATOR**', '[**OGGY#9889**](https://oggy.ga)', true)
-      .addField('**REPOSITORY**', '[**HERE**](https://github.com/nischay876/discord-musicbot)', true)
+      .addField('**EMAIL**', '[**hi@mecute.ga**](https://u.oggy.ga/mecuteemail)', true)
+      .addField('**REPOSITORY**', '[**HERE**](https://github.mecute.ga)', true)
       .addField('\u200b',
-        "An advanced discord music bot that supports Spotify, SoundCloud, YouTube, Twitch with Shuffling, Volume Control, Web Dashboard and alot more!"
+        "An advanced discord Music  Bot that supports Spotify, SoundCloud, YouTube, Twitch with Shuffling, Volume Control, Web Dashboard and alot more!"
       )
     message.channel.send(embed);
   },

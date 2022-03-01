@@ -45,4 +45,4 @@ module.exports = {
     player.queue.clear();
     await client.sendTime(message.channel, "✅ | **Cleared the queue!**");
   },
-  }
+}

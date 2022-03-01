@@ -18,7 +18,7 @@ function getStatData(location , $){
        module.exports = {
         name: "csgo",
         description: "Gives stats of csgo player",
-        usage: "csgo <steamID>",
+        usage: "[steamID]",
         type: "Fun" ,
   run: async(client, message, args) => {
     let csgoo = args.slice(0).join(' ');

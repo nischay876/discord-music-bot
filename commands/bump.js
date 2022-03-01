@@ -42,6 +42,5 @@ module.exports = {
       "✅ | **" + track.title + "** has been moved to the front of the queue."
     );
   },
-
-  }
+}
 

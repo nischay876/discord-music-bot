@@ -5,7 +5,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "cat",
-  description: "sends a cute or funny picture of a cat",
+  description: "sends a picture of a cat",
   accessableby: "Members",
   aliases: ["catto"],
   run: async (client, message, args) => {

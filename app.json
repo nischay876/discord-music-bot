@@ -1,6 +1,6 @@
 {
   "name": "discord-music-bot",
-  "description": "An advanced discord music bot that supports Spotify, SoundCloud, YouTube, Twitch with Shuffling, Volume Control and Web Dashboard!",
+  "description": "An advanced discord Music  Bot that supports Spotify, SoundCloud, YouTube, Twitch with Shuffling, Volume Control and Web Dashboard!",
   "repository": "https://github.com/nischay876/discord-music-bot",
   "logo": "https://i.imgur.com/CW6sCf8.gif",
   "keywords": [
@@ -47,6 +47,10 @@
       "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
       "value": "http://localhost"
     },
+    "StatusPage": {
+      "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
+      "value": "https://mecute.instatus.com/"
+    },    
     "Spotify_ClientID": {
       "description": "Spotify ClientID. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
       "required": "true"

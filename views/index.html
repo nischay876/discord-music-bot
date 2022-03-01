@@ -2,23 +2,36 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Discord Music Bot</title>
-	<link rel="shortcut icon" href="/logo.gif" type="image/gif" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-	 crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
-	<link href="//db.onlinewebfonts.com/c/721c73bcd2e49f3a621991089838b503?family=Euclid+Circular+B+Medium" rel="stylesheet"
-	 type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Me Cute An Advanced Discord Music Bot By OGGY#9889">
+    <meta property="og:image" content="https://i.imgur.com/CW6sCf8.gif">
+    <meta name="twitter:image" content="https://i.imgur.com/CW6sCf8.gif" />
+    <meta name="og:image:secure_url" content="https://i.imgur.com/CW6sCf8.gif" />
+    <meta name="image" property="og:image" content="https://i.imgur.com/CW6sCf8.gif" />
+    <meta name="theme-color" content="#303236">
+    <meta property="og:type" content="website">
+    <meta name="google-site-verification" content="xY4VgOef6jhGOAzpCh9_uRLbGfMmPiMl_uBgbxUGRJk" />
+    <title>Discord Music Bot</title>
+    <link rel="shortcut icon" href="/logo.gif" type="image/gif" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+     crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link href="//db.onlinewebfonts.com/c/721c73bcd2e49f3a621991089838b503?family=Euclid+Circular+B+Medium" rel="stylesheet"
+     type="text/css" />
 </head>
 
 <body>
+
+  <div class='spinner-wrapper'>
+    <div class="spinner"></div>
+  </div>
+
 	<section class="main">
 		<!-- Navbar -->
 		<nav class="navbar" style="
@@ -35,7 +48,7 @@
           height: 10%;
         ">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#" style="
+				<a class="navbar-brand" href="https://mecute.ga" style="
               color: white;
               display: flex;
               align-items: center;
@@ -76,7 +89,13 @@
               <a class="nav-link" href="#commands" style="color: white"
                 >Commands</a
               >
-              <a class="nav-link" href="https://oggy.ga" style="color: white"
+              <a class="nav-link" href="https://discord.gg/aYBB9eXe2g" style="color: white"
+                >Support Server</a
+              >
+              <a class="nav-link" href="https://mecute.instatus.com/" style="color: white"
+                >Server Status</a
+              >                             
+              <a class="nav-link" href="https://www.oggy.ga" style="color: white"
                 >OGGY 's Website</a
               >              
             </div>
@@ -116,6 +135,7 @@
         </div>
       </div>
       <!-- End Hero -->
+
 
       <!-- Features -->
       <div id="features" class="section-features">
@@ -191,6 +211,8 @@
           >
             <thead>
               <tr>
+    <tr data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
                 <th
                   scope="col"
                   style="
@@ -266,6 +288,7 @@
         </div>
       </div>
       <!-- End Commands -->
+
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
@@ -273,6 +296,16 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      let spinnerWrapper = document.querySelector('.spinner-wrapper');
+  
+      window.addEventListener('load', function () {
+          // spinnerWrapper.style.display = 'none';
+          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+      });
+  </script>
+
   </body>
   <style>
     @font-face {
@@ -476,16 +509,82 @@
     .footer p a:hover {
       color: white;
     }
+
+        /*     LOADING CSS START      */
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        html{
+        font-size: 10px;
+        }
+
+        .spinner-wrapper{
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .spinner {
+        position: relative;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        }
+
+        .spinner::before,
+        .spinner:after{
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        }
+
+        .spinner:before {
+        width: 100%;
+        height: 100%;
+        background-image:linear-gradient(90deg, #ff00cc 0%,#333399 100% );
+        animation: spin .5s infinite linear;
+        }
+
+        .spinner:after {
+        width: 90%;
+        height: 90%;
+        background-color: #000000;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+        @keyframes spin {
+        to {
+        transform: rotate(360deg);
+        }
+        }
+
+        /* LOADING CSS END */
+
   </style>
   <script>
     $(document).ready(() => {
       $.get("/api/info", (data) => {
         //check api/routes.js
-        let url = `https://discord.com/oauth2/authorize?client_id=${
+       let url = `https://discord.com/oauth2/authorize?client_id=889880800655474768&permissions=6777204297&scope=bot%20identify%20&redirect_url=https://dash.mecute.ga/api/callback&response_type=code`;
+       
+       /* let url = `https://discord.com/oauth2/authorize?client_id=${
           data.ClientID
         }&permissions=${data.Permissions}&scope=${data.Scopes.join(
           "%20"
-        )}&redirect_uri=${data.Website}${data.CallbackURL}&response_type=code`;
+        )}&redirect_uri=${data.Website}${data.CallbackURL}&response_type=code`; */
 
         $("#hero").append(`
             <a href="${url}" class="btn" type="button" style="background: rgba( 255, 255, 255, 0.35 );
@@ -494,6 +593,14 @@ backdrop-filter: blur( 9px );
 -webkit-backdrop-filter: blur( 9px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );"> I N V I T E </a>`);
+
+$("#hero").append(`
+            <a href="./dashboard" class="btn" type="button" style="background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );"> D A S H B O A R D </a>`);
       });
 
       $.get("/api/commands", (data) => {
@@ -501,6 +608,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );"> I N V I T E </a>`);
         data.commands.forEach((cmd) => {
           $("#commands-body").append(`
 <tr>
+    <tr data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
   <th scope="row">${cmd.name}</th>
   <td>${cmd.aliases ? cmd.aliases.join(", ") : "None"}</td>
   <td>${cmd.usage ? cmd.usage : "None"}</td>

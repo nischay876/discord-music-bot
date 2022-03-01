@@ -11,6 +11,6 @@ module.exports = {
   maxUses: 0 // 0 = infinite uses
 }).catch(console.error);
 
-    message.lineReplyNoMention(invite ? `**Here's your server invite**: ${invite}` : "There has been an error during the creation of the invite.");
+    message.channel.send(invite ? `**Here's your server invite**: ${invite}` : "There has been an error during the creation of the invite.");
   }
 }

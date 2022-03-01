@@ -11,7 +11,7 @@ module.exports = {
      
       let noperembed = new MessageEmbed()
       .setColor(client.botconfig.EmbedColor)
-      .setDescription('**Only the bot owner [OGGY#9889](https://oggy.ga) can use this command**')
+      .setDescription('**Only Bot Owner [OGGY#9889](https://www.oggy.ga) Can Use This Command**')
     
       if (message.author.id != `${client.botconfig.Admins}`) 
       return message.channel.send(noperembed) 

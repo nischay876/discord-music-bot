@@ -45,45 +45,13 @@ module.exports = {
             })
 
 
-        return message.channel.send(embed);
+            let CheckNode = client.Manager.nodes.get(client.botconfig.Lavalink.id);
+            if (!CheckNode || !CheckNode.connected) {
+              return client.sendTime(
+                message.channel,
+                `**Music Service Temporarily Unavailable  •  [SERVER STATUS](${client.botconfig.StatusPage})**`
+              ); } 
+              return message.channel.send(embed);
     })
-},
-SlashCommand: {
-/**
-     *
-     * @param {import("../structures/DiscordMusicBot")} client
-     * @param {import("discord.js").Message} message
-     * @param {string[]} args
-     * @param {*} param3
-     */
- run: async (client, interaction) => {
-        const { version } = require("discord.js")
-        cpuStat.usagePercent(async function (err, percent, seconds) {
-        if (err) {
-            return console.log(err);
-        }
-        const duration = moment.duration(client.uptime).format(" D[d], H[h], m[m]");
-
-        const embed = new MessageEmbed()
-        embed.setColor(client.botconfig.EmbedColor)
-        embed.addFields({
-            name: ':ping_pong: Ping',
-            value: `┕\`${Math.round(client.ws.ping)}ms\``,
-            inline: true
-        },
-        {
-            name: ':clock1: Uptime',
-            value: `┕\`${duration}\``,
-            inline: true
-        },{
-            name: ':file_cabinet: Memory',
-            value: `┕\`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}mb\``,
-            inline: true
-        })
-
-
-    return interaction.send(embed);
-})
+  },
 }
-}
-};

@@ -2,7 +2,7 @@ const Discord = module.require("discord.js");
 
 module.exports = {
   name: "suggest",
-  description: "Suggestion Or Report Bug",
+  description: "Suggestion",
   run: async (client, message, args) => {
     const avatar = message.author.avatarURL;
     const suggestchannel = client.channels.cache.get("918561799756972092");
@@ -11,7 +11,7 @@ module.exports = {
       return message.channel.send("Please Suggest Something");
     }
     message.channel.send(
-      `**<@${message.author.id}> Thanks For Suggesting Or Reporting A Bug**`
+      `**<@${message.author.id}> Thanks For Suggestion**`
     );
     const embed = new Discord.MessageEmbed()
       .setAuthor(`New Suggestion!`, avatar)
