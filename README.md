@@ -14,8 +14,6 @@
 
 # •   Run The Project
 
-[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/nischay876/discord-music-bot)
-
 [![Deploy on Railway](https://railway.app/button.svg)](https://u.oggy.ga/discord-music-bot-railway-deploy) 
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/nischay876/discord-music-bot)
