@@ -3,7 +3,7 @@
 ## **An advanced discord music  bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard !**
 
 # •   Support
-[![DiscordBanner](https://invidget.switchblade.xyz/aYBB9eXe2g)](https://discord.gg/aYBB9eXe2g)
+[![DiscordBanner](https://invidget.switchblade.xyz/N28ZrdrhtA)](https://discord.gg/aYBB9eXe2g)
 
 [![DiscordBanner](https://discord-readme-badge.vercel.app/api?id=813561253175361558)](https://discord.gg/aYBB9eXe2g)
 
