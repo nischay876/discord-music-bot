@@ -1,13 +1,19 @@
-## 📄 READ THIS
+## 📸 Tutorial
 
-**NEED USE WITH SLASH-COMMAND? HERE: >> [NanoSpacePlus](https://github.com/Adivise/NanoSpacePlus)**
+- [x] How to run on Replit? [Click Here](https://youtu.be/PvWHuYA8kpU) (When have new release!, Please refork the project!)
+- [x] How to run on your own? [Coming Next...]
+
+## ☔ Fork
+
+ [![Run on Repl.it](https://repl.it/badge/github/Adivise/NanoSpace)](https://repl.it/github/Adivise/NanoSpace)
 
 ## 📑 Short Feature
-- [x] Music System
+- [x] Music
 - [x] Playlists System
 - [x] Premium System
 - [x] Custom Prefix
-- [x] Multi Language
+- [x] Multi Language (98.9%) (can set per guild!)
+- [x] SlashCommand
 - [x] Custom Filters
 - [x] Easy to use
 
@@ -69,7 +75,7 @@ PREFIX=#
 NP_REALTIME=true
 LEAVE_TIMEOUT=120000
 LANGUAGE=en
-EMBED_COLOR=#000001
+EMBED_COLOR=#303236
 
 # Devloper
 OWNER_ID=REPLACE_HERE
@@ -96,7 +102,7 @@ const { resolve } = require("path");
 module.exports = {
     TOKEN: process.env.TOKEN || "YOUR_TOKEN",  // your bot token
     PREFIX: process.env.PREFIX || "#", //<= default is #  // bot prefix
-    EMBED_COLOR: process.env.EMBED_COLOR || "#000001", //<= default is "#000001"
+    EMBED_COLOR: process.env.EMBED_COLOR || "#303236", //<= default is "#303236"
 
     OWNER_ID: process.env.OWNER_ID || "YOUR_CLIENT_ID", //your owner discord id example: "515490955801919488"
 
@@ -186,14 +192,9 @@ After installation or finishes all you can use `node .` to start the bot. or `Ru
 - Vibrate (#vibrate)
 - Vibrato (#vibrato)
 - Daycore (#daycore)
-- Television (#Television)
-- Jazz (#jazz)
 	
 📦 **Playlist Commands!**
-- Create (#create [name])
-- Add (#add [name] [link])
-- Private (#private [name])
-- Public (#public [name])
+- Create (#create [link] [name]) <= Work all link? use same name to add! went your have!
 - Delete (#delete [name])
 - Import (#import [name])
 - Detail (#detail [name])

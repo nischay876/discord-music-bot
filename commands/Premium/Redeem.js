@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const Redeem = require('../../settings/models/Redeem.js')
-const Premium = require('../../settings/models/Premium.js')
+const PremiumUser = require('../../settings/models/PremiumUser.js')
 const moment = require('moment')
 
 module.exports = { 
@@ -10,11 +10,11 @@ module.exports = {
         usage: "<code>",
         description: "Redeem a premium code!",
         accessableby: "Member",
-        category: "Premium",
+     //   category: "Premium",
     },
     run: async (client, message, args, user, language, prefix) => {
         
-        let member = await Premium.findOne({ Id: message.author.id })
+        let member = await PremiumUser.findOne({ Id: message.author.id })
   
         let code = args[0]
         if (!code)
@@ -54,6 +54,7 @@ module.exports = {
         member = await member.save({ new: true }).catch(() => {})
         client.premiums.set(message.author.id, member)
         await premium.deleteOne().catch(() => {})
+        const PremiumPlan = await PremiumUser.findOne({ Id: message.author.id })
 
         message.channel.send({
             embeds: [

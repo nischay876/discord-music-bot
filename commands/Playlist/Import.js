@@ -1,11 +1,11 @@
 const { MessageEmbed, Permissions } = require('discord.js');
 const Playlist = require('../../settings/models/Playlist.js');
-const { convertTime } = require('../../structures/ConvertTime.js');
+const { convertTime } = require('../../structures/convert.js');
 
 module.exports = { 
     config: {
         name: "import",
-        aliases: ["load"],
+        aliases: ["load","pp"],
 		usage: "<playlist name>",
         description: "Import a playlist to the queue",
         accessableby: "Premium",
@@ -94,10 +94,14 @@ module.exports = {
         const Premiumed = new MessageEmbed()
             .setAuthor({ name: `${client.i18n.get(language, "nopremium", "premium_author")}`, iconURL: client.user.displayAvatarURL() })
             .setDescription(`${client.i18n.get(language, "nopremium", "premium_desc")}`)
+         //   .addField('STORE WEBSITE', '[**HERE**](https://mecute.tebex.io)', true)
+            .addField('1 YEAR', '[**HERE**](https://mecute.tebex.io/package/5101638)', true)
+            .addField('6 MONTH', '[**HERE**](https://mecute.tebex.io/package/5101650)', true)
+            .addField('1 MONTH', '[**HERE**](https://mecute.tebex.io/package/5101652)', true)
             .setColor(client.color)
             .setTimestamp()
 
-        return message.channel.send({ content: " ", embeds: [Premiumed] });
+        return message.reply({ content: " ", embeds: [Premiumed] });
       }
     } catch (err) {
         console.log(err)

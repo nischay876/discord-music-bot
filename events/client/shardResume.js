@@ -1,5 +1,5 @@
-const { white, yellow } = require("chalk");
+const chalk = require("chalk");
 
 module.exports = async (client, id) => {
-    console.log(white('[') + yellow('WARN') + white('] ') + yellow('Shard ') + white(id) + yellow(' Shard Resumed!'));
+    console.log(chalk.yellowBright(`[INFORMATION] (${String(new Date).split(" ", 5).join(" ")}) Shard ${id} Shard Resumed!`));
 }

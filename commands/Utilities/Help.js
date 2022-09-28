@@ -29,9 +29,7 @@ module.exports = {
                                 return {
                                     label: `${category[0].toUpperCase() + category.slice(1)}`,
                                     value: category,
-                                    description: `${client.i18n.get(language, "utilities", "help_category_desc", {
-                                        category: category
-                                    })}`
+                           
                                 }
                             })
                         ])

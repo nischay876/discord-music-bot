@@ -22,7 +22,7 @@ module.exports = {
             const data = {
                 op: 'filters',
                 guildId: message.guild.id,
-                rotation: { rotationHz: 0.2 }
+                rotation: { rotationHz: 0.1 }
             }
 
             await player.node.send(data);

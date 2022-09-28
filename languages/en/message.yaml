@@ -13,4 +13,4 @@ no_perms: I don't have perms to execute command!
 error: Something went wrong.
 
 # You are not the client owner of this bot!
-owner_only: You're not the client owner!
+owner_only: Only Bot Owner [OGGY#9889](https://oggy.ga) Can Use This Command

@@ -1,5 +1,5 @@
 const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
-const formatduration = require('../../structures/FormatDuration.js');
+const formatduration = require('../../structures/formatduration');
 const GLang = require("../../settings/models/Language.js");
     
 module.exports = async (client, player, track, payload) => {
@@ -29,9 +29,9 @@ module.exports = async (client, player, track, payload) => {
       .addField(`${client.i18n.get(language, "player", "queue_title")}`, `${player.queue.length}`, true)
       .addField(`${client.i18n.get(language, "player", "duration_title")}`, `${formatduration(track.duration, true)}`, true)
       .addField(`${client.i18n.get(language, "player", "total_duration_title")}`, `${formatduration(player.queue.duration)}`, true)
-      .addField(`${client.i18n.get(language, "player", "current_duration_title", {
+      /*.addField(`${client.i18n.get(language, "player", "current_duration_title", {
         current_duration: formatduration(track.duration, true),
-      })}`, `\`\`\`🔴 | 🎶──────────────────────────────\`\`\``)
+      })}`, `\`\`\`🔴 | 🎶──────────────────────────────\`\`\``) */
       .setTimestamp();
     
     const row = new MessageActionRow()

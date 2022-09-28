@@ -1,5 +1,5 @@
 const { MessageEmbed, MessageButton, MessageActionRow, Permissions } = require("discord.js");
-const { convertTime } = require("../../structures/ConvertTime.js");
+const { convertTime } = require("../../structures/convert.js");
 
 module.exports = { 
     config: {

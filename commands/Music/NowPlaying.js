@@ -1,4 +1,4 @@
-const formatDuration = require("../../structures/FormatDuration.js");
+const formatDuration = require("../../structures/formatduration.js");
 const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
 const ytsr = require("youtube-sr").default;
 

@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const Playlist = require('../../settings/models/Playlist.js');
-const formatDuration = require('../../structures/FormatDuration.js');
+const formatDuration = require('../../structures/formatduration');
 const { NormalPage } = require('../../structures/PageQueue.js');
 
 module.exports = { 
@@ -77,10 +77,14 @@ module.exports = {
         const Premiumed = new MessageEmbed()
             .setAuthor({ name: `${client.i18n.get(language, "nopremium", "premium_author")}`, iconURL: client.user.displayAvatarURL() })
             .setDescription(`${client.i18n.get(language, "nopremium", "premium_desc")}`)
+         //   .addField('STORE WEBSITE', '[**HERE**](https://mecute.tebex.io)', true)
+            .addField('1 YEAR', '[**HERE**](https://mecute.tebex.io/package/5101638)', true)
+            .addField('6 MONTH', '[**HERE**](https://mecute.tebex.io/package/5101650)', true)
+            .addField('1 MONTH', '[**HERE**](https://mecute.tebex.io/package/5101652)', true)
             .setColor(client.color)
             .setTimestamp()
 
-        return message.channel.send({ content: " ", embeds: [Premiumed] });
+        return message.reply({ content: " ", embeds: [Premiumed] });
       }
     } catch (err) {
         console.log(err)

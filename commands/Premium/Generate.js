@@ -11,13 +11,13 @@ module.exports = {
         usage: "<plan> <amount>",
         description: "Generate a premium code",
         accessableby: "Owner",
-        category: "Premium",
+     //   category: "Premium",
     },
     run: async (client, message, args, user, language, prefix) => {
     let codes = [];
 
     const plan = args[0];
-    const plans = ['daily', 'weekly', 'monthly', 'yearly'];
+    const plans = ['daily', 'weekly', 'monthly', 'halfyearly', 'yearly'];
 
     if (!plan) return message.channel.send({ content: `${client.i18n.get(language, "premium", "provide_plan", {
         plans: plans.join(', ')
@@ -32,6 +32,7 @@ module.exports = {
     if (plan === 'daily') time = Date.now() + 86400000;
     if (plan === 'weekly') time = Date.now() + 86400000 * 7;
     if (plan === 'monthly') time = Date.now() + 86400000 * 30;
+    if (plan === 'halfyearly') time = Date.now() + 86400000 * 183;
     if (plan === 'yearly') time = Date.now() + 86400000 * 365;
 
     let amount = args[1];
@@ -39,7 +40,7 @@ module.exports = {
 
     for (var i = 0; i < amount; i++) {
       const codePremium = voucher_codes.generate({
-        pattern: '####-####-####'
+        pattern: '####-####-####-####'
       })
 
       const code = codePremium.toString().toUpperCase()
@@ -51,7 +52,7 @@ module.exports = {
           plan: plan,
           expiresAt: time
         })
-        codes.push(`${i + 1} - ${code}`)
+        codes.push(`${code}`)
       }
     }
 

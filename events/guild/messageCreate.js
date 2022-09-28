@@ -1,11 +1,11 @@
 const { Permissions, MessageEmbed } = require("discord.js");
 const GPrefix = require('../../settings/models/Prefix.js');
 const GLang = require('../../settings/models/Language.js');
-const Premium = require('../../settings/models/Premium.js');
+const PremiumUser = require('../../settings/models/PremiumUser.js');
 const chalk = require('chalk');
 
 module.exports = async (client, message) => { 
-    if(message.author.bot || message.channel.type === "dm") return;
+ //   if(message.author.bot || message.channel.type === "dm") return;
 
     let PREFIX = client.prefix;
     let LANGUAGE = client.i18n;
@@ -58,9 +58,9 @@ module.exports = async (client, message) => {
       let user = message.client.premiums.get(message.author.id)
   
       if (!user) {
-        const findUser = await Premium.findOne({ Id: message.author.id })
+        const findUser = await PremiumUser.findOne({ Id: message.author.id })
         if (!findUser) {
-          const newUser = await Premium.create({ Id: message.author.id })
+          const newUser = await PremiumUser.create({ Id: message.author.id })
           message.client.premiums.set(message.author.id, newUser)
           user = newUser
         } else return
@@ -69,7 +69,13 @@ module.exports = async (client, message) => {
       try {
         if (command.ownerOnly) {
           if (message.author.id !== client.owner) {
-              return message.channel.send(`${client.i18n.get(language, "message", "owner_only")}`);
+              return message.channel.send({
+                embeds: [
+                    new MessageEmbed()
+                    .setColor(client.color)
+                    .setDescription(`${client.i18n.get(language, "message", "owner_only")}`),
+                ],
+            });
           }
       }
           command.run(client, message, args, user, language, prefix);

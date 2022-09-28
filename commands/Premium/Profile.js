@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-const Premium = require('../../settings/models/Premium.js')
+const PremiumUser = require('../../settings/models/PremiumUser.js')
 const moment = require('moment');
 
 module.exports = { 
@@ -11,7 +11,7 @@ module.exports = {
     },
     run: async (client, message, args, user, language, prefix) => {
 
-        const PremiumPlan = await Premium.findOne({ Id: message.author.id })
+        const PremiumPlan = await PremiumUser.findOne({ Id: message.author.id })
         const expires = moment(PremiumPlan.premium.expiresAt).format('dddd, MMMM Do YYYY HH:mm:ss');
 
 		try {
@@ -35,7 +35,7 @@ module.exports = {
                 .setColor(client.color)
                 .setTimestamp()
     
-            return message.channel.send({ content: " ", embeds: [Premiumed] });
+            return message.reply({ content: " ", embeds: [Premiumed] });
           }
         } catch (err) {
             console.log(err)

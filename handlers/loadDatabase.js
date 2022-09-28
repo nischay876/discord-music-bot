@@ -1,4 +1,5 @@
-const { white, green } = require("chalk");
+const chalk = require('chalk');
+const delay = require('delay');
 const mongoose = require('mongoose');
 const { MONGO_URI } = require('../settings/config.js');
 
@@ -8,7 +9,8 @@ module.exports = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
-        console.log(white('[') + green('INFO') + white('] ') + green('Database ') + white('Events') + green(' Loaded!'));
+        await delay(4000);
+        console.log(chalk.greenBright('[INFORMATION] Database Connected Successfully'));
     } catch (error) {
         console.log(error);
     }

@@ -1,4 +1,4 @@
-const { convertTime } = require("../../structures/ConvertTime.js")
+const { convertTime } = require("../../structures/convert.js")
 const { MessageEmbed, Permissions } = require("discord.js");
 
 module.exports = { 

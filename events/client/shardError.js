@@ -1,5 +1,5 @@
-const { red, white } = require("chalk");
+const chalk = require("chalk");
 
 module.exports = async (client, error, id) => {
-    console.log(white('[') + red('ERROR') + white('] ') + red('Shard ') + white(id) + red(' Shard Errored!'));
+    console.log(chalk.red(`[ERROR] (${String(new Date).split(" ", 5).join(" ")}) Shard ${id} Shard Errored!`));
 }

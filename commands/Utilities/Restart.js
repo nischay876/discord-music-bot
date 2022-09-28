@@ -6,9 +6,9 @@ module.exports = {
         name: "restart",
         description: "Shuts down the client!",
         usage: "shutdown",
-        category: "Utilities",
+      //  category: "Utilities",
         accessableby: "Owner",
-        aliases: ["stopbot"]
+        aliases: ["stopbot","re"]
     },
     run: async (client, message, args, user, language, prefix) => {
 

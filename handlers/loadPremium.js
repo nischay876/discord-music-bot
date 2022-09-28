@@ -1,9 +1,9 @@
-const Premium = require('../settings/models/Premium.js')
+const PremiumUser = require('../settings/models/PremiumUser.js')
 const cron = require('node-cron')
 
 module.exports = async (client) => {
   cron.schedule('*/60 * * * * *', async () => {
-    await Premium.find({ isPremium: true }, async (err, users) => {
+    await PremiumUser.find({ isPremium: true }, async (err, users) => {
       if (users && users.length) {
 
         for (let user of users) {

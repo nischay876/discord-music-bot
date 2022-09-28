@@ -84,7 +84,7 @@ module.exports = {
 			.setColor(client.color)
 			.setTimestamp()
 
-		return message.channel.send({ content: " ", embeds: [Premiumed] });
+		return message.reply({ content: " ", embeds: [Premiumed] });
 	  }
 	} catch (err) {
 		console.log(err)
